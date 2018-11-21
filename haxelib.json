@@ -1,0 +1,10 @@
+{
+	"name": "kex-spriter-io",
+	"url": "https://github.com/sh-dave/kex-spriter-io",
+	"classPath": "src",
+	"dependencies": {
+		"kex-io": "",
+		"spriter": ""
+	},
+	"license": "zlib"
+}
