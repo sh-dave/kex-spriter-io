@@ -1,8 +1,6 @@
 package kex.io;
 
 import kex.io.AssetLog.*;
-import kex.io.BlobIO;
-import kex.io.CoreIOUtils;
 import spriter.Spriter;
 
 using tink.CoreApi;
