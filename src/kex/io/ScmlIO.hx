@@ -10,6 +10,7 @@ class ScmlIO extends GenericIO<Spriter> {
 		this.blobs = blobs;
 	}
 
-	override function onResolve( scope: String, path: String, file: String )
-		return blobs.get(scope, path, file).next(blob -> Spriter.parseScml(blob.toString()));
+	override function onResolve( url: String, ?opts )
+		return blobs.get(url, opts)
+			.next(blob -> Spriter.parseScml(blob.toString()));
 }
